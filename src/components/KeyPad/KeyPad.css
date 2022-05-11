@@ -1,0 +1,42 @@
+.keypad{
+    flex: 1.7;
+    padding: 15px;
+    display: flex;
+}
+.keypad > span{
+    height: 10px;
+    width: 80%;
+    color: gray;
+}
+.keypad p{
+    line-height: 1.8rem;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.keypad_keys{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.keypad_keys p{
+    width: 30.5%;
+    margin: 2px;
+    height: 24%;
+    color: var(--text-color-1);
+    border-radius: 50%;
+    background-color: var(--bg-color-btns);
+    transition: 200ms;
+}
+.keypad_symbols{
+    flex: 1;
+}
+.keypad_symbols p{
+    width: 110%;
+    height: 20%;
+    color: var(--text-color-2);
+    font-size: 2.5rem;
+}
